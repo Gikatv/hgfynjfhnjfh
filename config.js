@@ -1,0 +1,208 @@
+// Store the paragraphs in a JavaScript object
+const paragraphs = {
+  dzoom: "dzoom",
+  azoom: "azoom",
+  hzoom: "hzoom",
+  sltzoom: "sltzoom",
+  slt4g: "slt4g",
+  fiber: "fiber",
+  asocial: "asocial",
+  d348: "d348",
+  hyt: "hyt",
+  //A498 //
+  hwsp: "hwsp",
+  hgaming: "hgami",
+  hsocial: "hsocial",
+  tiktok: "tiktok",
+  netflix: "netflix",
+};
+
+// Function to copy text to clipboard
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text)
+    .then(() => showMessage('Text copied to clipboard!'))
+    .catch(err => showMessage('Failed to copy text: ' + err));
+}
+
+// Function to download files from config folder
+function downloadConfigFile(filename) {
+  // Path to your config folder
+  const filePath = `config/${filename}`;
+  
+  // Create a temporary anchor element to trigger download
+  const link = document.createElement('a');
+  link.href = filePath;
+  link.download = filename;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  
+  showMessage(`Downloading ${filename}...`);
+}
+
+// Function to show a temporary message
+function showMessage(msg) {
+  let messageElement = document.getElementById('message');
+  if (!messageElement) {
+    messageElement = document.createElement('div');
+    messageElement.id = 'message';
+    messageElement.style.marginTop = '20px';
+    messageElement.style.color = 'green';
+    messageElement.style.fontWeight = 'bold';
+    messageElement.style.opacity = '0';
+    messageElement.style.transition = 'opacity 0.5s';
+    document.body.appendChild(messageElement);
+  }
+
+  messageElement.textContent = msg;
+  messageElement.style.opacity = '1';
+  
+  setTimeout(() => {
+    messageElement.style.opacity = '0';
+  }, 2000);
+}
+
+// Add event listeners when the DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+  // Copy buttons
+  const dzoom = document.getElementById('dzoom');
+  if (dzoom) {
+    dzoom.addEventListener('click', () => copyToClipboard(paragraphs.dzoom));
+  }
+
+  const azoom = document.getElementById('azoom');
+  if (azoom) {
+    azoom.addEventListener('click', () => copyToClipboard(paragraphs.azoom));
+  }
+
+  const hzoom = document.getElementById('hzoom');
+  if (hzoom) {
+    hzoom.addEventListener('click', () => copyToClipboard(paragraphs.hzoom));
+  }
+
+  const sltzoom = document.getElementById('sltzoom');
+  if (sltzoom) {
+    sltzoom.addEventListener('click', () => copyToClipboard(paragraphs.sltzoom));
+  }
+
+  const slt4g = document.getElementById('slt4g');
+  if (slt4g) {
+    slt4g.addEventListener('click', () => copyToClipboard(paragraphs.slt4g));
+  }
+
+  const fiber = document.getElementById('fiber');
+  if (fiber) {
+    fiber.addEventListener('click', () => copyToClipboard(paragraphs.fiber));
+  }
+
+  const asocial = document.getElementById('asocial');
+  if (asocial) {
+    asocial.addEventListener('click', () => copyToClipboard(paragraphs.asocial));
+  }
+
+  const d348 = document.getElementById('d348');
+  if (d348) {
+    d348.addEventListener('click', () => copyToClipboard(paragraphs.d348));
+  }
+
+  const hyt = document.getElementById('hyt');
+  if (hyt) {
+    hyt.addEventListener('click', () => copyToClipboard(paragraphs.hyt));
+  }
+
+  const hwsp = document.getElementById('hwsp');
+  if (hwsp) {
+    hwsp.addEventListener('click', () => copyToClipboard(paragraphs.hwsp));
+  }
+
+  const hgaming = document.getElementById('hgaming');
+  if (hgaming) {
+    hgaming.addEventListener('click', () => copyToClipboard(paragraphs.hgaming));
+  }
+
+  const hsocial = document.getElementById('hsocial');
+  if (hsocial) {
+    hsocial.addEventListener('click', () => copyToClipboard(paragraphs.hsocial));
+  }
+
+  const tiktok = document.getElementById('tiktok');
+  if (tiktok) {
+    tiktok.addEventListener('click', () => copyToClipboard(paragraphs.tiktok));
+  }
+
+  const netflix = document.getElementById('netflix');
+  if (netflix) {
+    netflix.addEventListener('click', () => copyToClipboard(paragraphs.netflix));
+  }
+
+  // Download buttons
+  const dzoomssh = document.getElementById('dzoom-ssh');
+  if (dzoomssh) {
+    dzoomssh.addEventListener('click', () => downloadConfigFile('dzoom.ehi'));
+  }
+  
+  const azoomssh = document.getElementById('azoom-ssh');
+  if (azoomssh) {
+    azoomssh.addEventListener('click', () => downloadConfigFile('azoom.ehi'));
+  }
+  
+  const hzoomssh = document.getElementById('hzoom-ssh');
+  if (hzoomssh) {
+    hzoomssh.addEventListener('click', () => downloadConfigFile('hzoom.ehi'));
+  }
+  
+  const sltzoomssh = document.getElementById('sltzoom-ssh');
+  if (sltzoomssh) {
+    sltzoomssh.addEventListener('click', () => downloadConfigFile('mzoom.ehi'));
+  }
+  
+  const slt4gssh = document.getElementById('slt4g-ssh');
+  if (slt4gssh) {
+    slt4gssh.addEventListener('click', () => downloadConfigFile('slt4gzoom.ehi'));
+  }
+  
+  const fiberssh = document.getElementById('fiber-ssh');
+  if (fiberssh) {
+    fiberssh.addEventListener('click', () => downloadConfigFile('fiberzoom.ehi'));
+  }
+  
+  const asocialssh = document.getElementById('asocial-ssh');
+  if (asocialssh) {
+    asocialssh.addEventListener('click', () => downloadConfigFile('asocial.ehi'));
+  }
+  
+  const d348ssh = document.getElementById('d348-ssh');
+  if (d348ssh) {
+    d348ssh.addEventListener('click', () => downloadConfigFile('dwhatsapp.ehi'));
+  }
+  
+  const hytssh = document.getElementById('hyt-ssh');
+  if (hytssh) {
+    hytssh.addEventListener('click', () => downloadConfigFile('hyt.ehi'));
+  }
+  
+  const hwspssh = document.getElementById('hwsp-ssh');
+  if (hwspssh) {
+    hwspssh.addEventListener('click', () => downloadConfigFile('a498.ehi'));
+  }
+  
+  const hgamingssh = document.getElementById('hgaming-ssh');
+  if (hgamingssh) {
+    hgamingssh.addEventListener('click', () => downloadConfigFile('hgmaing.ehi'));
+  }
+  
+  const hsocialssh = document.getElementById('hsocial-ssh');
+  if (hsocialssh) {
+    hsocialssh.addEventListener('click', () => downloadConfigFile('hsocial.ehi'));
+  }
+  
+  const tiktokssh = document.getElementById('tiktok-ssh');
+  if (tiktokssh) {
+    tiktokssh.addEventListener('click', () => downloadConfigFile('tiktok.ehi'));
+  }
+  
+  const netflixssh = document.getElementById('netflix-ssh');
+  if (netflixssh) {
+    netflixssh.addEventListener('click', () => downloadConfigFile('netflix.ehi'));
+  }
+});
