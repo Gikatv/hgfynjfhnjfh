@@ -1,7 +1,7 @@
 // Store the paragraphs in a JavaScript object
 const paragraphs = {
   dzoom: "vless://f5a010ad-7e29-4369-8dfa-d62d677ca368@157.230.39.122:443?security=tls&encryption=none&headerType=none&type=tcp&sni=aka.ms#SL%20Cyber%20Vpn-test",
-  azoom: "azoom",
+  azoom: "vless://692de61b-1a84-4313-ac55-26c620dcf5a9@support.zoom.us:80?path=%2F&security=none&encryption=none&host=comeback.slcybervpn.store&type=ws#SL%20Cyber%20Vpn-test2",
   hzoom: "hzoom",
   sltzoom: "sltzoom",
   slt4g: "slt4g",
