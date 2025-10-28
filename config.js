@@ -3,7 +3,7 @@ const paragraphs = {
   dzoom: "vless://f5a010ad-7e29-4369-8dfa-d62d677ca368@157.230.39.122:443?security=tls&encryption=none&headerType=none&type=tcp&sni=aka.ms#SL%20Cyber%20Vpn-test",
   azoom: "vless://692de61b-1a84-4313-ac55-26c620dcf5a9@support.zoom.us:80?path=%2F&security=none&encryption=none&host=comeback.slcybervpn.store&type=ws#SL%20Cyber%20Vpn-test2",
   hzoom: "vless://692de61b-1a84-4313-ac55-26c620dcf5a9@104.16.252.55:80?path=%2F&security=none&encryption=none&host=comeback.slcybervpn.store&type=ws#SL%20Cyber%20Vpn-test2",
-  sltzoom: "vless://f5a010ad-7e29-4369-8dfa-d62d677ca368@comeback.slcybervpn.store:443?security=tls&alpn=http%2F1.1&encryption=none&headerType=none&type=tcp&sni=m.zoom.us#SL%20Cyber%20Vpn-test",
+  sltzoom: "vmess://eyJhZGQiOiIxNDEuMTkzLjIxMy4yMCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiY29tZWJhY2suc2xjeWJlcnZwbi5zdG9yZSIsImlkIjoiYThlMzFhM2EtZWE3Ni00YzI0LWFjMTctZDE1YjQ0OTNkZjI2IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4NDQzIiwicHMiOiJTTCBDeWJlciBWcG4tdGVzdDMiLCJzY3kiOiJhdXRvIiwic25pIjoiY29tZWJhY2suc2xjeWJlcnZwbi5zdG9yZSIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9",
   slt4g: "vless://f5a010ad-7e29-4369-8dfa-d62d677ca368@comeback.slcybervpn.store:443?security=tls&encryption=none&headerType=none&type=tcp&sni=http%3A%2F%2Fzoom.us#SL%20Cyber%20Vpn-test",
   fiber: "fiber",
   asocial: "asocial",
