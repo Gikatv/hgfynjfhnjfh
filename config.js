@@ -10,7 +10,7 @@ const paragraphs = {
   d348: "d348",
   hyt: "vless://f5a010ad-7e29-4369-8dfa-d62d677ca368@comeback.slcybervpn.store:443?security=tls&encryption=none&headerType=none&type=tcp&sni=http%3A%2F%2Fyoutube.com#SL%20Cyber%20Vpn-test",
   //A498 //
-  hwsp: "hwsp",
+  hwsp: "vmess://eyJhZGQiOiIxMDQuMTYuMjUyLjU1IiwiYWlkIjoiMCIsImFscG4iOiIiLCJmcCI6IiIsImhvc3QiOiJjb21lYmFjay5zbGN5YmVydnBuLnN0b3JlIiwiaWQiOiJhOGUzMWEzYS1lYTc2LTRjMjQtYWMxNy1kMTViNDQ5M2RmMjYiLCJuZXQiOiJ3cyIsInBhdGgiOiIvIiwicG9ydCI6Ijg0NDMiLCJwcyI6IlNMIEN5YmVyIFZwbi10ZXN0MyIsInNjeSI6ImF1dG8iLCJzbmkiOiJjb21lYmFjay5zbGN5YmVydnBuLnN0b3JlIiwidGxzIjoidGxzIiwidHlwZSI6Ii0tLSIsInYiOiIyIn0=",
   hgaming: "vless://f5a010ad-7e29-4369-8dfa-d62d677ca368@comeback.slcybervpn.store:443?security=tls&alpn=http%2F1.1&encryption=none&headerType=none&type=tcp&sni=http%3A%2F%2Fsecure.vimeo.com#SL%20Cyber%20Vpn-test",
   hsocial: "vless://f5a010ad-7e29-4369-8dfa-d62d677ca368@comeback.slcybervpn.store:443?security=tls&encryption=none&headerType=none&type=tcp&sni=twitter.com.com#SL%20Cyber%20Vpn-test",
   tiktok: "vless://f5a010ad-7e29-4369-8dfa-d62d677ca368@comeback.slcybervpn.store:443?security=tls&encryption=none&headerType=none&type=tcp&sni=www.tiktok.com#SL%20Cyber%20Vpn-test",
