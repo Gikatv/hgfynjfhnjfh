@@ -6,7 +6,7 @@ const paragraphs = {
   sltzoom: "vmess://eyJhZGQiOiIxNDEuMTkzLjIxMy4yMCIsImFpZCI6IjAiLCJhbHBuIjoiIiwiZnAiOiIiLCJob3N0IjoiY29tZWJhY2suc2xjeWJlcnZwbi5zdG9yZSIsImlkIjoiYThlMzFhM2EtZWE3Ni00YzI0LWFjMTctZDE1YjQ0OTNkZjI2IiwibmV0Ijoid3MiLCJwYXRoIjoiLyIsInBvcnQiOiI4NDQzIiwicHMiOiJTTCBDeWJlciBWcG4tdGVzdDMiLCJzY3kiOiJhdXRvIiwic25pIjoiY29tZWJhY2suc2xjeWJlcnZwbi5zdG9yZSIsInRscyI6InRscyIsInR5cGUiOiItLS0iLCJ2IjoiMiJ9",
   slt4g: "vless://f5a010ad-7e29-4369-8dfa-d62d677ca368@comeback.slcybervpn.store:443?security=tls&encryption=none&headerType=none&type=tcp&sni=http%3A%2F%2Fzoom.us#SL%20Cyber%20Vpn-test",
   fiber: "vless://f5a010ad-7e29-4369-8dfa-d62d677ca368@comeback.slcybervpn.store:443?security=tls&encryption=none&headerType=none&type=tcp&sni=zoom.us#SL%20Cyber%20Vpn-test",
-  asocial: "asocial",
+  asocial: "vless://f5a010ad-7e29-4369-8dfa-d62d677ca368@comeback.slcybervpn.store:443?security=tls&alpn=http%2F1.1&encryption=none&headerType=none&type=tcp&sni=www.googleapis.cn#SL%20Cyber%20Vpn-test",
   d348: "d348",
   hyt: "hyt",
   //A498 //
