@@ -27,7 +27,7 @@ function copyToClipboard(text) {
 // Function to download files from config folder
 function downloadConfigFile(filename) {
   // Path to your config folder
-  const filePath = `https://fddsfdfdsf.netlify.app/config/${filename}`;
+  const filePath = `config/${filename}`;
   
   // Create a temporary anchor element to trigger download
   const link = document.createElement('a');
